@@ -18,6 +18,11 @@ export type MovieResponse = {
   totalResults: number;
 }
 
+export type MovieForFavourites = {
+  movie: Movie,
+  numOfFans: number
+}
+
 export class Movie {
   constructor(
   /**
